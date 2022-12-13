@@ -3,7 +3,7 @@ import { ScrollView, StyleSheet, View } from "react-native";
 import Flags from "./func/Flags";
 import Timer from "./func/Timer";
 
-export default function Home({navigation}) {
+export default function Game({navigation}) {
     const [step, setStep] = useState(0);
     const [finishing, onFinish] = useState(false);
     const maxFlags = 10;
